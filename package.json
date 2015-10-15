@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/miguelmota/postfix-calculate",
   "devDependencies": {
-    "infix-to-postfix": "0.0.1",
+    "infix-to-postfix": "0.0.2",
     "tape": "^3.0.3"
   },
   "engines": {
