@@ -1,3 +1,6 @@
+/**
+ * @credit http://www.smccd.net/accounts/hasson/C++2Notes/ArithmeticParsing.html
+ */
 (function(root) {
   'use strict';
 
