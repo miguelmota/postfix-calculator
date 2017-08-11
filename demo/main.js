@@ -4,7 +4,7 @@ var form = document.querySelector('#form')
 
 var defaultInput = '3 4 * 2 5 + / 5 4 + *'
 
-input.value = localStorage.getItem('input') || defaultInput
+input.value = localStorage.getItem('pc_input') || defaultInput
 
 form.addEventListener('submit', function(event) {
   event.preventDefault()
@@ -21,7 +21,7 @@ function calculate() {
     output.innerHTML = result
   }
 
-  localStorage.setItem('input', value)
+  localStorage.setItem('pc_input', value)
 }
 
 calculate()
