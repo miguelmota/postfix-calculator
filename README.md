@@ -32,9 +32,9 @@ Use the [infix-to-postfix](https://github.com/miguelmota/infix-to-postfix) modul
 npm test
 ```
 
-# Credits
+# Credit
 
-[Algorithms for Parsing Arithmetic Expressions](http://www.smccd.net/accounts/hasson/C++2Notes/ArithmeticParsing.html)
+- [Algorithms for Parsing Arithmetic Expressions](http://www.smccd.net/accounts/hasson/C++2Notes/ArithmeticParsing.html)
 
 # License
 

@@ -1,6 +1,6 @@
 {
   "name": "postfix-calculator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Calculate a postfix (Reverse Polish Notation) expression.",
   "main": "postfix-calculator.js",
   "directories": {
