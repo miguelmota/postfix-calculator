@@ -1,20 +1,20 @@
 {
-  "name": "postfix-calculate",
+  "name": "postfix-calculator",
   "version": "0.0.1",
   "description": "Calculate a postfix (Reverse Polish Notation) expression.",
-  "main": "postfix-calculate.js",
+  "main": "postfix-calculator.js",
   "directories": {
     "test": "test"
   },
   "files": [
-    "postfix-calculate.js"
+    "postfix-calculator.js"
   ],
   "scripts": {
     "test": "./node_modules/tape/bin/tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelmota/postfix-calculate"
+    "url": "https://github.com/miguelmota/postfix-calculator"
   },
   "keywords": [
     "postfix",
@@ -22,7 +22,7 @@
     "rpn",
     "notation",
     "evaluate",
-    "calculate",
+    "calculator",
     "arithmetic"
   ],
   "author": {
@@ -32,14 +32,14 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/miguelmota/postfix-calculate/blob/master/LICENSE.md"
+    "url": "https://github.com/miguelmota/postfix-calculator/blob/master/LICENSE.md"
   },
   "bugs": {
-    "url": "https://github.com/miguelmota/postfix-calculate/issues"
+    "url": "https://github.com/miguelmota/postfix-calculator/issues"
   },
-  "homepage": "https://github.com/miguelmota/postfix-calculate",
+  "homepage": "https://github.com/miguelmota/postfix-calculator",
   "devDependencies": {
-    "infix-to-postfix": "0.0.2",
+    "infix-to-postfix": "0.0.3",
     "tape": "^3.0.3"
   },
   "engines": {

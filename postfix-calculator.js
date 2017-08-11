@@ -4,7 +4,7 @@
 (function(root) {
   'use strict';
 
-  function postfixCalculate(expression) {
+  function postfixCalculator(expression) {
     if (typeof expression !== 'string') {
       if (expression instanceof String) {
         expression = expression.toString();
@@ -66,15 +66,15 @@
 
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = postfixCalculate;
+      exports = module.exports = postfixCalculator;
     }
-    exports.postfixCalculate = postfixCalculate;
+    exports.postfixCalculator = postfixCalculator;
   } else if (typeof define === 'function' && define.amd) {
     define([], function() {
-      return postfixCalculate;
+      return postfixCalculator;
     });
   } else {
-    root.postfixCalculate = postfixCalculate;
+    root.postfixCalculator = postfixCalculator;
   }
 
 })(this);
