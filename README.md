@@ -2,6 +2,10 @@
 
 > Calculate a postfix ([Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)) expression.
 
+# Demo
+
+[https://lab.miguelmota.com/postfix-calculator](https://lab.miguelmota.com/postfix-calculator)
+
 # Install
 
 ```bash
